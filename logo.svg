@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2bd6"/>
+      <stop offset="100%" stop-color="#1de9ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left lightning -->
+  <path d="M80 120 L140 120 L110 240 L170 240 L90 400"
+        fill="none" stroke="url(#grad)" stroke-width="28" stroke-linejoin="round"/>
+
+  <!-- Right lightning -->
+  <path d="M432 120 L372 120 L402 240 L342 240 L422 400"
+        fill="none" stroke="url(#grad)" stroke-width="28" stroke-linejoin="round"/>
+
+  <!-- Left M pillar -->
+  <path d="M180 120 V400" stroke="url(#grad)" stroke-width="32"/>
+
+  <!-- Right M pillar -->
+  <path d="M332 120 V400" stroke="url(#grad)" stroke-width="32"/>
+
+  <!-- Middle M -->
+  <path d="M180 240 L256 320 L332 240"
+        fill="none" stroke="url(#grad)" stroke-width="32" stroke-linecap="round"/>
+</svg>
