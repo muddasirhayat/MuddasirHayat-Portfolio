@@ -1,10 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/MuddasirHayat/', // GitHub Pages base path
+  base: '/MuddasirHayat-Portfolio/',
   build: {
     rollupOptions: {
       output: {
@@ -12,8 +11,8 @@ export default defineConfig({
           three: ['three', '@react-three/fiber', '@react-three/drei'],
           framer: ['framer-motion'],
           icons: ['react-icons'],
-        }
-      }
-    }
-  }
+        },
+      },
+    },
+  },
 })
