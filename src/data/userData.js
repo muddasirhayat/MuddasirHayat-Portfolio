@@ -94,7 +94,7 @@ export const userData = {
         {
             institution: "Virtual University",
             degree: "BS Computer Science",
-            year: "2025 - 2029",
+            year: "2026 - 2030",
         },
         {
             institution: "Saylani Mass IT Training Program",
